@@ -60,22 +60,26 @@ input {
   color: white!important;
   margin-top: 1em;
   border-radius: 0px;
+  font-size: 1.25em;
+}
+#submit-button {
   background-color: lightcoral;
   border: white 3px solid;
-  font-size: 1.25em;
 }
 
 .meme {
   color: white;
-  max-width: 750px;
+  width: 480px;
+  background-color: #F0FFFF;
+  margin: 1em;
 }
 .top-text,
 .bottom-text {
   position: relative;
-  height: 4em;
+  height: 1em;
 }
 .top-text {
-  bottom: -4.25em;
+  bottom: -1.25em;
 }
 .bottom-text {
   top: -3.75em;
@@ -93,3 +97,7 @@ input {
   letter-spacing: 7px;
 } 
 
+.remove-button {
+  background-color: #00AAAF;
+  font-weight: 700;
+}
