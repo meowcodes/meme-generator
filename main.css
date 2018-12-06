@@ -1,0 +1,95 @@
+
+.row  {
+  min-height: 100vh;
+}
+
+.form-box,
+.meme-box,
+.meme {
+  text-align: center
+}
+.form-box {
+  background-color: lightcoral;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+.meme-box {
+  background-color: lightcyan;
+  font-family: 'Oswald', sans-serif;
+}
+
+.form-box div {
+  padding: 1em 0;
+}
+.title,
+.btn {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.title {
+  padding: 0.25em 0.5em!important;
+  background: white;
+  color: lightcoral;
+  font-size: 1.5em;
+  font-weight: 700;
+  border: white 3px solid;
+}
+
+form {
+  background-color: #FFD9D6;
+  padding: 0 1em;
+}
+
+label {
+  margin: 1em;
+  width: 150px;
+}
+
+label, input, select, textarea, .btn {
+  color: lightcoral;
+}
+
+input {
+  border: none;
+  background-color: white;
+  padding: 0.5em 1em;
+  width: 200px;
+}
+
+.btn {
+  color: white!important;
+  margin-top: 1em;
+  border-radius: 0px;
+  background-color: lightcoral;
+  border: white 3px solid;
+  font-size: 1.25em;
+}
+
+.meme {
+  color: white;
+  max-width: 750px;
+}
+.top-text,
+.bottom-text {
+  position: relative;
+  height: 4em;
+}
+.top-text {
+  bottom: -4.25em;
+}
+.bottom-text {
+  top: -3.75em;
+}
+.top-text h1,
+.bottom-text h1 {
+  font-weight: 700;
+  text-shadow: 
+    -3px -3px 0 black,
+    -3px 0px 0 black,
+    0px -3px 0 black,
+    0px 3px 0 black,
+    3px 0px 0 black,
+    3px 3px 0 black;
+  letter-spacing: 7px;
+} 
+

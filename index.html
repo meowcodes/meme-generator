@@ -5,10 +5,50 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Meme Generator</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Oswald:200,400,700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
   <script src="main.js"></script>
 </head>
 <body>
-  
+<div class="container-fluid">
+<div class="row">
+<div class="col-12 col-sm-5 col-md-4 col-lg-3 form-box d-flex flex-column justify-content-center align-items-center">
+  <div class="title">
+    <span>MEME CREATOR</span>
+  </div>
+  <form class="my-3" action="#">
+    <div>
+      <label for="img-url">Image URL</label><br/>
+      <input type="url" id="img-url">
+    </div>
+    <div>
+      <label for="top-text">Top Text</label><br/>
+      <input type="text" id="top-text">
+    </div>
+    <div>
+      <label for="bottom-text">Bottom Text</label><br/>
+      <input type="text" id="bottom-text">
+    </div>
+    <div>
+      <input class="btn" type="submit" value="CREATE">
+    </div>
+  </form>
+</div>
+<div class="col-12 col-sm-7 col-md-8 col-lg-9 meme-box d-flex justify-content-center align-items-center">
+  <div class="meme p-3">
+    <div class="top-text">
+      <h1>TOP TEXT</h1>
+    </div>
+    <div>
+      <img class="img-fluid" src="http://static.t13.cl/images/sizes/1200x675/1503930685-success-kid-sammy-griner-1920.jpg">
+    </div>
+    <div class="bottom-text">
+      <h1>BOTTOM TEXT</h1>
+    </div>
+  </div>
+</div>
+</div>
+</div>
 </body>
 </html>
